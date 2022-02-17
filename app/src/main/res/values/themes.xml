@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<!-- Base application theme. -->
+	<style name="Theme.ImaNanji" parent="Theme.AppCompat.Light">
+		<!-- Primary brand color. -->
+		<item name="colorPrimary">@color/yellow</item>
+		<item name="colorPrimaryVariant">@color/purple</item>
+		<item name="android:textColor">@color/black</item>
+		<!-- Secondary brand color. -->
+		<item name="colorSecondary">@color/orange</item>
+		<item name="colorSecondaryVariant">@color/yellow</item>
+		<item name="colorOnSecondary">@color/gray</item>
+
+		<item name="android:fontFamily">@font/dotgothic16</item>
+		<item name="fontFamily">@font/dotgothic16</item>
+
+		<item name="actionBarStyle">@style/ActionBar</item>
+		<!-- Status bar color. -->
+		<item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+		<!-- Customize your theme here. -->
+	</style>
+
+	<style name="ActionBar" parent="Theme.AppCompat.Light">
+		<item name="background">@color/purple</item>
+		<item name="displayOptions">showHome|useLogo|showTitle</item>
+		<item name="android:titleTextStyle">@style/ActionBar.Text</item>
+	</style>
+
+	<style name="ActionBar.Text" parent="@android:style/TextAppearance">
+		<item name="android:textColor">@color/black</item>
+		<item name="android:fontFamily">@font/dotgothic16</item>
+	</style>
+
+</resources>

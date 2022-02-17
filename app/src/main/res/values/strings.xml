@@ -1,0 +1,8 @@
+<resources>
+	<string name="app_name">いまなんじ</string>
+	<string name="local_time">現地時間：</string>
+	<string name="greenwich_time">グリニッジ標準時：</string>
+	<string name="time_difference">時差：</string>
+	<string name="analog">アナログ</string>
+	<string name="digital">デジタル</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="?attr/colorPrimary"
+	android:gravity="center"
+	android:orientation="vertical"
+	android:paddingHorizontal="24dp"
+	tools:context=".MainActivity"
+	>
+
+	<Button
+		android:id="@+id/switchButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="36dp"
+		android:text="@string/analog"
+		android:background="@drawable/button_switch_background"
+		/>
+
+	<TextView
+		android:id="@+id/local"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="14dp"
+		android:text="@string/local_time"
+		android:textSize="24sp"
+		/>
+
+	<TextView
+		android:id="@+id/localTime"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="36dp"
+		android:textAlignment="center"
+		android:textColor="@color/gray"
+		android:textSize="24sp"
+		tools:text="13:00"
+		/>
+
+	<TextView
+		android:id="@+id/greenwich"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="14dp"
+		android:text="@string/greenwich_time"
+		android:textSize="24sp"
+		/>
+
+	<TextView
+		android:id="@+id/greenwichTime"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="36dp"
+		android:text="@string/greenwich_time"
+		android:textAlignment="center"
+		android:textColor="@color/gray"
+		android:textSize="24sp"
+		tools:text="10:00"
+		/>
+
+	<TextView
+		android:id="@+id/difference"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="14dp"
+		android:text="@string/time_difference"
+		android:textSize="24sp"
+		/>
+
+	<TextView
+		android:id="@+id/timeDifference"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="03:00:00"
+		android:textAlignment="center"
+		android:textColor="@color/gray"
+		android:textSize="24sp"
+		/>
+
+</LinearLayout>
