@@ -1,4 +1,4 @@
 # imananji
 World clock app in Kotlin
 
-![IMAGE 2022-02-17 13:54:16](https://user-images.githubusercontent.com/63841201/154402132-2d6ed629-23fc-4eba-bdd3-5a60e96ac0ce.jpg)
+https://user-images.githubusercontent.com/63841201/158290970-9df5c6b2-5d85-417e-b5cd-611303185e78.mov
