@@ -7,17 +7,15 @@ class DigitalClockWidget(
 	private val view: DigitalClockView
 ) {
 
-	var timeZone: TimeZone? = null
+	private val formatter = SimpleDateFormat("yyyy/MM/dd HH:mm:ss", Locale.JAPAN)
 
-	fun setTime(timestamp: Long) {
-		val time = SimpleDateFormat("yyyy/MM/dd HH:mm:ss", Locale.ROOT)
-		if (view.timeZone != null) {
-			timeZone = TimeZone.getTimeZone(view.timeZone)
-			time.timeZone = timeZone
+	fun setTime(unixTime: Long, timeZone: String? = TimeZone.getDefault().id) {
+		formatter.timeZone = if (view.timeZone != null) {
+			TimeZone.getTimeZone(view.timeZone)
 		} else {
-			timeZone = TimeZone.getDefault()
+			TimeZone.getTimeZone(timeZone)
 		}
-		val result = time.format(timestamp)
+		val result = formatter.format(unixTime)
 		view.text = result
 	}
 }

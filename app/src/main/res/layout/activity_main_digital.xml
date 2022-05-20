@@ -12,14 +12,14 @@
 	tools:context=".MainActivity"
 	>
 
-<!--	<Button-->
-<!--		android:id="@+id/switchButton"-->
-<!--		android:layout_width="wrap_content"-->
-<!--		android:layout_height="wrap_content"-->
-<!--		android:layout_marginBottom="36dp"-->
-<!--		android:text="@string/analog"-->
-<!--		android:background="@drawable/button_switch_background"-->
-<!--		/>-->
+	<Button
+		android:id="@+id/switchButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="36dp"
+		android:text="@string/analog"
+		android:background="@drawable/button_switch_background"
+		/>
 
 	<TextView
 		android:id="@+id/local"
@@ -55,7 +55,6 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_marginBottom="36dp"
-		android:text="@string/greenwich_time"
 		android:textAlignment="center"
 		android:textColor="@color/gray"
 		android:textSize="24sp"
@@ -69,6 +68,7 @@
 		android:layout_height="wrap_content"
 		android:layout_marginBottom="14dp"
 		android:text="@string/time_difference"
+		android:textAlignment="center"
 		android:textSize="24sp"
 		/>
 
@@ -76,7 +76,7 @@
 		android:id="@+id/timeDifference"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:text="+9:00"
+		android:text="インターネットに接続してください"
 		android:textAlignment="center"
 		android:textColor="@color/gray"
 		android:textSize="24sp"
