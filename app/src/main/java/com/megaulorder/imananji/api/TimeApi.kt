@@ -1,4 +1,4 @@
-package com.megaulorder.imananji
+package com.megaulorder.imananji.api
 
 import retrofit2.Response
 import retrofit2.Retrofit

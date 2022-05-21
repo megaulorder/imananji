@@ -1,5 +1,8 @@
 package com.megaulorder.imananji
 
+import com.megaulorder.imananji.api.ResultWrapper
+import com.megaulorder.imananji.api.TimeApi
+
 class TimeRepository(
 	private val api: TimeApi,
 ) {

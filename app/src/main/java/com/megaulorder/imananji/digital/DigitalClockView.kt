@@ -1,8 +1,9 @@
-package com.megaulorder.imananji
+package com.megaulorder.imananji.digital
 
 import android.content.Context
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatTextView
+import com.megaulorder.imananji.R
 
 /**
  * A view with a string attribute for timezone, e.g. "GMT+9", "Asia/Tokyo"

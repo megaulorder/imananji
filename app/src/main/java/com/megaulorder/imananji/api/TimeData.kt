@@ -1,4 +1,4 @@
-package com.megaulorder.imananji
+package com.megaulorder.imananji.api
 
 import com.google.gson.annotations.SerializedName
 

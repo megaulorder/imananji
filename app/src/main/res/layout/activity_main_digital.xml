@@ -30,7 +30,7 @@
 		android:textSize="24sp"
 		/>
 
-	<com.megaulorder.imananji.DigitalClockView
+	<com.megaulorder.imananji.digital.DigitalClockView
 		android:id="@+id/localTime"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
@@ -50,7 +50,7 @@
 		android:textSize="24sp"
 		/>
 
-	<com.megaulorder.imananji.DigitalClockView
+	<com.megaulorder.imananji.digital.DigitalClockView
 		android:id="@+id/greenwichTime"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
@@ -76,7 +76,7 @@
 		android:id="@+id/timeDifference"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:text="インターネットに接続してください"
+		android:text="@string/no_internet"
 		android:textAlignment="center"
 		android:textColor="@color/gray"
 		android:textSize="24sp"

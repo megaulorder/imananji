@@ -6,4 +6,5 @@
 	<string name="analog">アナログ</string>
 	<string name="digital">デジタル</string>
 	<string name="no_difference">✨ありません✨</string>
+	<string name="no_internet">インターネットに接続してください</string>
 </resources>

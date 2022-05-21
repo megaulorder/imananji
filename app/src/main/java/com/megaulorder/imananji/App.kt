@@ -1,6 +1,7 @@
 package com.megaulorder.imananji
 
 import android.app.Application
+import com.megaulorder.imananji.api.TimeApi
 
 class App : Application() {
 
