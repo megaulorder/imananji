@@ -2,7 +2,7 @@ package com.megaulorder.imananji.difference
 
 import android.content.res.Resources
 import androidx.lifecycle.LifecycleCoroutineScope
-import com.megaulorder.imananji.Effect
+import com.megaulorder.imananji.mvi.Effect
 import com.megaulorder.imananji.R
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.collect

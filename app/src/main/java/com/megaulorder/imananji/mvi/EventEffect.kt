@@ -1,4 +1,4 @@
-package com.megaulorder.imananji
+package com.megaulorder.imananji.mvi
 
 sealed interface Event {
 	data class OffsetEvent(val offset: Long) : Event

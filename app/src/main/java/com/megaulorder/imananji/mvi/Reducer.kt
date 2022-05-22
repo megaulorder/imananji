@@ -1,8 +1,6 @@
 package com.megaulorder.imananji.mvi
 
 import androidx.lifecycle.LifecycleCoroutineScope
-import com.megaulorder.imananji.Effect
-import com.megaulorder.imananji.Event
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.collect
 
