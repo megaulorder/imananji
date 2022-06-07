@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+	<attr name="timezone" format="string" />
+
 	<declare-styleable name="DigitalClockView">
-		<attr name="timezone" format="string" />
+		<attr name="timezone" />
+	</declare-styleable>
+
+	<declare-styleable name="AnalogClockView">
+		<attr name="timezone" />
+		<attr name="primaryColor" format="color" />
+		<attr name="secondaryColor" format="color" />
+		<attr name="faceBorderWidth" format="float" />
 	</declare-styleable>
 </resources>

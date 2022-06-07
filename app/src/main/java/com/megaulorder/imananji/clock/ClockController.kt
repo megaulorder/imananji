@@ -1,13 +1,13 @@
-package com.megaulorder.imananji.digital
+package com.megaulorder.imananji.clock
 
-sealed interface DigitalClockController {
+sealed interface ClockController {
 
 	fun setLocalTime(unixTime: Long)
 
 	fun setApiTime(unixTime: Long, offset: Long, timeZone: String)
 
-	class DigitalClockControllerImpl(private val widget: DigitalClockWidget) :
-		DigitalClockController {
+	class ClockControllerImpl(private val widget: ClockWidget) :
+		ClockController {
 
 		override fun setLocalTime(unixTime: Long) {
 			widget.setTime(unixTime)

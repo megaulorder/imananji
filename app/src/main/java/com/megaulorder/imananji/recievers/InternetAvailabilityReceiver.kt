@@ -1,9 +1,10 @@
-package com.megaulorder.imananji
+package com.megaulorder.imananji.recievers
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.net.ConnectivityManager
+import com.megaulorder.imananji.TimeController
 
 class InternetAvailabilityReceiver(
 	private val timeController: TimeController

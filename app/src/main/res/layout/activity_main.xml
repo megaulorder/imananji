@@ -13,7 +13,7 @@
 	>
 
 	<Button
-		android:id="@+id/switchButton"
+		android:id="@+id/switch_button"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_marginBottom="36dp"
@@ -30,8 +30,8 @@
 		android:textSize="24sp"
 		/>
 
-	<com.megaulorder.imananji.digital.DigitalClockView
-		android:id="@+id/localTime"
+	<com.megaulorder.imananji.clock.digital.DigitalClockView
+		android:id="@+id/local_time_digital"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_marginBottom="36dp"
@@ -39,6 +39,17 @@
 		android:textColor="@color/gray"
 		android:textSize="24sp"
 		tools:text="1970/01/01 09:00"
+		/>
+
+	<com.megaulorder.imananji.clock.analog.AnalogClockView
+		android:id="@+id/local_time_analog"
+		android:layout_width="130dp"
+		android:layout_height="130dp"
+		android:layout_marginBottom="36dp"
+		app:faceBorderWidth="10"
+		app:primaryColor="@color/gray"
+		app:secondaryColor="@color/white"
+		android:visibility="gone"
 		/>
 
 	<TextView
@@ -50,8 +61,8 @@
 		android:textSize="24sp"
 		/>
 
-	<com.megaulorder.imananji.digital.DigitalClockView
-		android:id="@+id/greenwichTime"
+	<com.megaulorder.imananji.clock.digital.DigitalClockView
+		android:id="@+id/greenwich_time_digital"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_marginBottom="36dp"
@@ -60,6 +71,18 @@
 		android:textSize="24sp"
 		tools:text="1970/01/01 00:00"
 		app:timezone="GMT"
+		/>
+
+	<com.megaulorder.imananji.clock.analog.AnalogClockView
+		android:id="@+id/greenwich_time_analog"
+		android:layout_width="130dp"
+		android:layout_height="130dp"
+		android:layout_marginBottom="36dp"
+		app:faceBorderWidth="10"
+		app:primaryColor="@color/gray"
+		app:secondaryColor="@color/white"
+		app:timezone="GMT"
+		android:visibility="gone"
 		/>
 
 	<TextView
@@ -73,7 +96,7 @@
 		/>
 
 	<TextView
-		android:id="@+id/timeDifference"
+		android:id="@+id/time_difference"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:text="@string/no_internet"

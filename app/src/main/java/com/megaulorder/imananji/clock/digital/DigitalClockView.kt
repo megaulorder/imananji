@@ -1,4 +1,4 @@
-package com.megaulorder.imananji.digital
+package com.megaulorder.imananji.clock.digital
 
 import android.content.Context
 import android.util.AttributeSet

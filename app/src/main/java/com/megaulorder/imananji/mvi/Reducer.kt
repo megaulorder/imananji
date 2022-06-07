@@ -14,8 +14,8 @@ class Reducer(
 	}
 
 	private fun handleEvent(event: Event) {
-		if (event is Event.OffsetEvent) {
-			effectFlow.emit(coroutineScope, Effect.OffsetEffect(event.offset))
+		if (event is Event.Offset) {
+			effectFlow.emit(coroutineScope, Effect.Offset(event.offset))
 		}
 	}
 }

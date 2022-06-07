@@ -2,8 +2,8 @@ package com.megaulorder.imananji.difference
 
 import android.content.res.Resources
 import androidx.lifecycle.LifecycleCoroutineScope
-import com.megaulorder.imananji.mvi.Effect
 import com.megaulorder.imananji.R
+import com.megaulorder.imananji.mvi.Effect
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.collect
 import java.text.SimpleDateFormat
@@ -24,7 +24,7 @@ class TimeDifferenceController(
 	}
 
 	private fun handleEffect(effect: Effect) {
-		if (effect is Effect.OffsetEffect) {
+		if (effect is Effect.Offset) {
 			setDifference(effect.offset)
 		}
 	}
